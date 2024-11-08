@@ -7,7 +7,7 @@ import tensorflow as tf
 import mediapipe as mp
 
 # Load the gesture recognition model
-model = tf.keras.models.load_model('C:/Users/ASUS/Documents/Odd-Eve_Game/model.h5')
+model = tf.keras.models.load_model('model.h5')
 
 # Initialize Pygame
 pygame.init()
